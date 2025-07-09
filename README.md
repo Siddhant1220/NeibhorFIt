@@ -52,7 +52,7 @@ cd Server
 npm install
 
 # Install client dependencies
-cd ../Client
+cd /Client/Client
 npm install
 
 ▶️ Running the App
@@ -68,4 +68,50 @@ npm run dev
 Start Frontend React App
 bash
 cd Client
+cd Client
 npm start
+
+📄 Pages & Components Overview
+📌 HomePage
+The landing page introducing NeighborFit, highlighting key features like neighborhood matching based on amenities, safety, commute, and other lifestyle factors. It includes sections with imagery and descriptive text to guide new users.
+
+📌 LoginPage
+Allows existing users to securely log in with their email and password. On successful login, users are redirected to their personalized profile page.
+
+📌 SignupPage
+New users can register by entering their name, email, and password. Upon successful signup, the user is redirected to their profile page.
+
+📌 UserPage
+Displays the logged-in user's personal profile information including their name, email, and the date they joined the platform.
+
+📌 Navbar
+The main navigation bar, visible across all pages. Dynamically adjusts links based on whether a user is logged in or not. Provides access to Home, Map, Areas, Login, and Signup pages.
+
+📌 Footer
+The footer component displayed on every page, containing quick navigation links like Home, About, Contact, and Blog along with developer credits.
+
+📌 LivabilityMetrics
+Displays a grid of Delhi neighborhoods with their respective livability scores. Clicking on a neighborhood redirects users to a detailed metrics page for that area.
+
+📌 LivabilityBreakdown
+Shows a detailed livability breakdown of an area, presenting scores for different factors like amenities, crime, commute, cost of living, schools, and healthcare in a clean, card-based layout.
+
+📌 MapSection
+(If implemented) Displays a visual map of Delhi highlighting key neighborhoods. Intended to integrate livability scores and interactive location markers.
+
+📌 AreaRating.js
+Stores predefined livability scores and metrics for various Delhi neighborhoods, acting as a data source for the frontend pages.
+
+📌 User API (Node/Express)
+Backend APIs for:
+
+Registering a new user
+
+Logging in
+
+Fetching user data by ID (used for profile page)
+
+📊 Future Possible Pages
+📍 Compare Page (planned): To compare metrics of two or more neighborhoods side by side.
+
+📌 Blog, Contact, About Pages (placeholders in footer): Informational pages for platform content and outreach.
