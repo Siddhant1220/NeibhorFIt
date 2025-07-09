@@ -115,3 +115,9 @@ Fetching user data by ID (used for profile page)
 📍 Compare Page (planned): To compare metrics of two or more neighborhoods side by side.
 
 📌 Blog, Contact, About Pages (placeholders in footer): Informational pages for platform content and outreach.
+Fetching user data by ID (used for profile page)
+
+📊 Future Possible Pages
+📍 Compare Page (planned): To compare metrics of two or more neighborhoods side by side.
+
+📌 Blog, Contact, About Pages (placeholders in footer): Informational pages for platform content and outreach.
