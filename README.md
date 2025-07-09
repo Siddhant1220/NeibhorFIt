@@ -63,13 +63,13 @@ mongod
 Start Backend Server
 bash
 cd Server
-npm run dev
+npm start
 
 Start Frontend React App
 bash
 cd Client
 cd Client
-npm start
+npm run dev
 
 📄 Pages & Components Overview
 📌 HomePage
